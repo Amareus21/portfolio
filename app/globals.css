@@ -11,6 +11,14 @@
 }
 
 body {
+
+  background-color: #111111;
+}
+
+p {
+  color: #909bac;
+  text-wrap: pretty;
+  margin: 5px 0;
 }
  
 

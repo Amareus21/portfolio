@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { montserrat } from "./fonts/fonts";
 import "./globals.css";
 
 
@@ -14,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={``}>{children}</body>
+      <body className={`${montserrat.className}`}>{children}</body>
     </html>
   );
 }
