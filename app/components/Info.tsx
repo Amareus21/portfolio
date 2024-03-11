@@ -2,7 +2,7 @@ import TituloSeccion from "./TituloSeccion";
 
 export default function Info() {
   return (
-    <div className="px-3 my-10">
+    <div className="px-3 my-14">
       <TituloSeccion>Info</TituloSeccion>
       <div className="flex lg:flex-row flex-col">
         <div className="lg:w-1/2">
