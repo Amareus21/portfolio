@@ -45,11 +45,16 @@ export default function Proyecto() {
             gobierno de España para mostrar los precios de carburantes de las
             gasolineras españolas y poder filtrar la más barata por municipio.
           </p>
-          <div className="grow flex items-end lg:my-0  my-6">
+          <div className="grow flex gap-6 items-end lg:my-0  my-6">
             <Boton
             type="preview"
               text="Preview"
               href="https://amareus21.github.io/benzinera/"
+            />
+            <Boton
+            type="code"
+              text="Code"
+              href="https://github.com/Amareus21/benzinera"
             />
           </div>
         </div>
