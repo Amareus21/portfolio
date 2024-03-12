@@ -11,21 +11,24 @@ import HTML from "@/public/html5.svg";
 import CSS from "@/public/css.svg";
 import TituloSeccion from "./TituloSeccion";
 import LineaSeparadora from "./LineaSeparadora";
+import Link from "next/link";
+import { Button } from "@material-tailwind/react";
+import Boton from "./Boton";
 
 export default function Proyecto() {
   return (
     <div className="px-2 mt-20">
       <TituloSeccion id="proyectos">Proyectos</TituloSeccion>
       <LineaSeparadora />
-      <div className="lg:grid lg:grid-cols-2 flex flex-col-reverse my-5">
+      <div className="lg:grid lg:grid-cols-2 flex flex-col my-5">
         <div className="relative mb-5 overflow-hidden hover:cursor-pointer rounded-xl">
           <Image
             alt="Imagen de la pagina web la benzinera barata"
             src={Benzinera}
-            className="hover:scale-105 w-full h-auto transition-all"
+            className="hover:scale-95 transition-all duration-500"
           />
         </div>
-        <div className="mb-5 lg:px-8">
+        <div className="mb-5 lg:px-8 flex flex-col">
           <div className="flex justify-center gap-5 items-center mb-5">
             <Image alt="logo javascript" src={JS} className="w-10 h-10" />
             <Image alt="logo html5" src={HTML} className="w-10 h-10" />
@@ -43,21 +46,27 @@ export default function Proyecto() {
             gobierno de España para mostrar los precios de carburantes de las
             gasolineras españolas y poder filtrar la más barata por municipio.
           </p>
-          <p></p>
+          <div className="grow flex items-end lg:my-0  my-6">
+            <Boton
+            type="preview"
+              text="Preview"
+              href="https://amareus21.github.io/benzinera/"
+            />
+          </div>
         </div>
       </div>
 
       {/*                                  */}
       <LineaSeparadora />
-      <div className="lg:grid lg:grid-cols-2 flex flex-col-reverse my-5">
-        <div className="mb-5 overflow-hidden hover:cursor-pointer rounded-xl">
+      <div className="lg:grid lg:grid-cols-2 flex flex-col my-5">
+        <div className="relative mb-5 overflow-hidden hover:cursor-pointer rounded-xl">
           <Image
-            alt="Imagen de la pagina web la benzinera barata"
+            alt="Imagen de la pagina web la cocina de todos"
             src={Cocina}
-            className="hover:scale-105 transition-all "
+            className="hover:scale-95 transition-all duration-500"
           />
         </div>
-        <div className="mb-5 lg:px-8">
+        <div className="mb-5 flex flex-col lg:px-8">
           <div className="flex justify-center gap-5 items-center mb-5">
             <Image alt="logo node" src={Node} className="w-10 h-10" />
             <Image alt="logo next" src={Next} className="w-10 h-10" />
@@ -86,6 +95,13 @@ export default function Proyecto() {
             de datos. Para la autenticación de los usuarios se usó la plataforma{" "}
             <span className="text-blue-500 font-semibold">Auth0</span>.
           </p>
+          <div className="grow flex items-end lg:my-0 my-6">
+            <Boton
+            type="code"
+              text="Code"
+              href="https://github.com/GestoresIOC2023/GestoresCocina"
+            />
+          </div>
         </div>
       </div>
       <LineaSeparadora />

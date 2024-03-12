@@ -3,7 +3,7 @@ export default function Titulo() {
   return (
     <div>
       <h2
-        className={`${anton.className} px-2 mb-5 overflow-hidden uppercase 2xl:text-[12] lg:text-9xl md:text-7xl text-5xl text-gray-600 drop-shadow-[1px_14px_3px_rgb(0,0,0,1)]  shadow-black `}
+        className={`${anton.className} px-2 mb-5 overflow-hidden uppercase 2xl:text-[12] lg:text-9xl md:text-7xl sm:text-5xl text-4xl text-gray-600 drop-shadow-[1px_14px_3px_rgb(0,0,0,1)]  shadow-black `}
       >
         <span className="escalar transition-all duration-100">F</span>
         <span className="escalar transition-all duration-100">u</span>
@@ -17,7 +17,7 @@ export default function Titulo() {
         <span className="escalar transition-all duration-100">k</span>
       </h2>
       <h1
-        className={`${anton.className} lg:px-0 overflow-hidden md:px-1 px-2 uppercase 2xl:text-[22rem] lg:text-[17rem] md:text-[12rem] text-7xl text-[#6d798b]  drop-shadow-[1px_14px_5px_rgb(0,0,0,1)]`}
+        className={`${anton.className} lg:px-0 overflow-hidden md:px-1 px-2 uppercase 2xl:text-[22rem] lg:text-[17rem] md:text-[12rem] sm:text-9xl text-7xl text-[#6d798b]  drop-shadow-[1px_14px_5px_rgb(0,0,0,1)]`}
       >
         <span className="escalar transition-all duration-100">D</span>
         <span className="escalar transition-all duration-100">e</span>
