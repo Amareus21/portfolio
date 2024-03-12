@@ -2,7 +2,7 @@ import TituloSeccion from "./TituloSeccion";
 
 export default function Info() {
   return (
-    <div className="my-14 px-3">
+    <div className="my-14 px-3 animate-fade">
       <TituloSeccion>Info</TituloSeccion>
       <div className="flex flex-col lg:flex-row">
         <div className="lg:w-1/2">
