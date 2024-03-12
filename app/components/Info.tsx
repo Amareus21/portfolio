@@ -2,11 +2,11 @@ import TituloSeccion from "./TituloSeccion";
 
 export default function Info() {
   return (
-    <div className="px-3 my-14">
+    <div className="my-14 px-3">
       <TituloSeccion>Info</TituloSeccion>
-      <div className="flex lg:flex-row flex-col">
+      <div className="flex flex-col lg:flex-row">
         <div className="lg:w-1/2">
-          <p className="md:text-xl text-sm font-medium">
+          <p className="text-sm font-medium md:text-xl">
             Hola, me llamo{" "}
             <span className="font-bold text-blue-500">Miguel Ángel</span> y soy{" "}
             <span className="font-bold text-blue-500">estudiante</span> del
@@ -14,7 +14,7 @@ export default function Info() {
             en l&apos;Instiut Obert de Catalunya.
           </p>
 
-          <p className="md:text-xl text-sm font-medium">
+          <p className="text-sm font-medium md:text-xl">
             Actualmente, estoy{" "}
             <span className="font-bold text-blue-500">
               buscando una empresa
@@ -24,7 +24,6 @@ export default function Info() {
             poder finalizar mis estudios.
           </p>
         </div>
-       
       </div>
     </div>
   );

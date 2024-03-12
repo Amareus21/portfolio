@@ -18,28 +18,28 @@ import TitleProyect from "./TitleProyect";
 
 export default function Proyecto() {
   return (
-    <div className="px-2 mt-20">
+    <div className="mt-20 px-2">
       <TituloSeccion id="proyectos">Proyectos</TituloSeccion>
       <LineaSeparadora />
       <CardProyects>
         <ImageProyect src={Benzinera} />
-        <div className="mb-5 lg:px-8 flex flex-col">
-          <div className="flex justify-center gap-5 items-center mb-5">
-            <Image alt="logo javascript" src={JS} className="w-10 h-10" />
-            <Image alt="logo html5" src={HTML} className="w-10 h-10" />
-            <Image alt="logo css3" src={CSS} className="w-10 h-10" />
+        <div className="mb-5 flex flex-col lg:px-8">
+          <div className="mb-5 flex items-center justify-center gap-5">
+            <Image alt="logo javascript" src={JS} className="h-10 w-10" />
+            <Image alt="logo html5" src={HTML} className="h-10 w-10" />
+            <Image alt="logo css3" src={CSS} className="h-10 w-10" />
           </div>
           <TitleProyect>La Benzinera Barata</TitleProyect>
-          <p className="md:text-xl text-sm">
+          <p className="text-sm md:text-xl">
             Página web creada como proyecto para el curso de grado superior,
             usando la librería{" "}
-            <span className="text-blue-500 font-semibold">Lealeft</span> para la
+            <span className="font-semibold text-blue-500">Lealeft</span> para la
             creación del mapa y la{" "}
-            <span className="text-blue-500 font-semibold">API</span> del
+            <span className="font-semibold text-blue-500">API</span> del
             gobierno de España para mostrar los precios de carburantes de las
             gasolineras españolas y poder filtrar la más barata por municipio.
           </p>
-          <div className="grow flex gap-6 items-end lg:my-0  my-6">
+          <div className="my-6 flex grow items-end gap-6  lg:my-0">
             <Boton
               type="preview"
               text="Preview"
@@ -59,33 +59,33 @@ export default function Proyecto() {
       <CardProyects>
         <ImageProyect src={Cocina} />
         <div className="mb-5 flex flex-col lg:px-8">
-          <div className="flex justify-center gap-5 items-center mb-5">
-            <Image alt="logo node" src={Node} className="w-10 h-10" />
-            <Image alt="logo next" src={Next} className="w-10 h-10" />
-            <Image alt="logo react" src={React} className="w-10 h-10" />
+          <div className="mb-5 flex items-center justify-center gap-5">
+            <Image alt="logo node" src={Node} className="h-10 w-10" />
+            <Image alt="logo next" src={Next} className="h-10 w-10" />
+            <Image alt="logo react" src={React} className="h-10 w-10" />
             <Image
               alt="logo de express.js"
               src={Express}
               className="h-10 w-10"
             />
-            <Image alt="logo mysql" src={MySQL} className="w-10 h-10" />
+            <Image alt="logo mysql" src={MySQL} className="h-10 w-10" />
           </div>
           <TitleProyect>La Cocina de Todos</TitleProyect>
-          <p className="md:text-xl text-sm">
+          <p className="text-sm md:text-xl">
             Página web para poder crear y compartir recetas de los usuarios.
           </p>
-          <p className="md:text-xl text-sm">
+          <p className="text-sm md:text-xl">
             Esta página fue creada como proyecto final de curso. Las diferentes
             tecnologías que se usaron fueron{" "}
-            <span className="text-blue-500 font-semibold">Next.js</span> para el
+            <span className="font-semibold text-blue-500">Next.js</span> para el
             front-end,
-            <span className="text-blue-500 font-semibold"> Express.js</span> en
+            <span className="font-semibold text-blue-500"> Express.js</span> en
             el back-end y{" "}
-            <span className="text-blue-500 font-semibold">MySQL</span> como base
+            <span className="font-semibold text-blue-500">MySQL</span> como base
             de datos. Para la autenticación de los usuarios se usó la plataforma{" "}
-            <span className="text-blue-500 font-semibold">Auth0</span>.
+            <span className="font-semibold text-blue-500">Auth0</span>.
           </p>
-          <div className="grow flex gap-6 items-end lg:my-0 my-6">
+          <div className="my-6 flex grow items-end gap-6 lg:my-0">
             <Boton
               type="code"
               text="Code"
