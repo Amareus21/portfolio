@@ -11,8 +11,6 @@ import HTML from "@/public/html5.svg";
 import CSS from "@/public/css.svg";
 import TituloSeccion from "./TituloSeccion";
 import LineaSeparadora from "./LineaSeparadora";
-import Link from "next/link";
-import { Button } from "@material-tailwind/react";
 import Boton from "./Boton";
 
 export default function Proyecto() {
@@ -26,6 +24,7 @@ export default function Proyecto() {
             alt="Imagen de la pagina web la benzinera barata"
             src={Benzinera}
             className="hover:scale-95 transition-all duration-500"
+            sizes="100vw"
           />
         </div>
         <div className="mb-5 lg:px-8 flex flex-col">
@@ -64,6 +63,7 @@ export default function Proyecto() {
             alt="Imagen de la pagina web la cocina de todos"
             src={Cocina}
             className="hover:scale-95 transition-all duration-500"
+            sizes="100vh"
           />
         </div>
         <div className="mb-5 flex flex-col lg:px-8">

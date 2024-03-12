@@ -1,6 +1,4 @@
 import Link from "next/link";
-import Git from "@/public/github-mark.svg";
-import Image from "next/image";
 export default function Boton({
   text,
   href,

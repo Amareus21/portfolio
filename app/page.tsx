@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen w-full flex-col items-center justify-start md:justify-center">
       <div className="xl:container w-full flex flex-col justify-start">
-        <div className="relative h-screen flex flex-col lg:justify-center justify-around">
+        <div className="relative min-h-screen flex flex-col justify-between">
           <Navigationar />
           <Titulo />
           <Info />
