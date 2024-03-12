@@ -1,6 +1,6 @@
-import {Anton, Montserrat} from 'next/font/google'
+import {Anton, Nunito_Sans,} from 'next/font/google'
 
 const anton = Anton({subsets:['latin'], weight:['400']})
-const montserrat = Montserrat({subsets:['latin'], weight:'variable'})
+const montserrat = Nunito_Sans({subsets:['latin'], weight:'variable'})
 
 export {anton, montserrat}
