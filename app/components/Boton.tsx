@@ -43,7 +43,7 @@ export default function Boton({
     );
   return (
     <div className="flex h-8 justify-center overflow-hidden rounded-2xl font-bold transition-colors duration-200 hover:cursor-pointer md:h-12 md:bg-inherit md:text-xl">
-      <div className="-translate-y-8 text-slate-600 transition-all duration-200 md:translate-y-0 md:hover:-translate-y-12">
+      <div className="-translate-y-8 text-slate-600 transition-all duration-300 md:translate-y-0 md:hover:-translate-y-12">
         <div className="flex h-8 items-center justify-center gap-2 md:h-12">
           {image}
           {text}
