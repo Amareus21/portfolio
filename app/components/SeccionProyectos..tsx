@@ -20,7 +20,6 @@ export default function Proyecto() {
   return (
     <div className="mt-20 px-2">
       <TituloSeccion id="proyectos">Proyectos</TituloSeccion>
-      <LineaSeparadora />
       <CardProyects>
         <ImageProyect src={Benzinera} />
         <div className="mb-5 flex flex-col lg:px-8">

@@ -16,6 +16,16 @@ export default function Navigationar() {
         </li>
         <li className="h-8 -translate-y-8 transition-all duration-300 md:translate-y-0 md:hover:-translate-y-8">
           <div className="flex h-8 items-center hover:cursor-pointer">
+            Sobre mí
+          </div>
+          <Link className="text-orange-500 " href="#sobremi">
+            <div className="flex h-8 items-center hover:cursor-pointer">
+              Sobre mí
+            </div>
+          </Link>
+        </li>
+        <li className="h-8 -translate-y-8 transition-all duration-300 md:translate-y-0 md:hover:-translate-y-8">
+          <div className="flex h-8 items-center hover:cursor-pointer">
             Contacto
           </div>
           <Link className="text-orange-500 " href="#contacto">
