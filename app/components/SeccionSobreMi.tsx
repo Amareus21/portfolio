@@ -6,7 +6,7 @@ export default function SeccionSobreMi() {
   return (
     <div id="sobremi" className="lg:container h-min mx-auto px-2">
       <TituloSeccion>Sobre mí</TituloSeccion>
-      <div className="flex flex-col lg:flex-row mb-10">
+      <div className="flex flex-col lg:gap-0 gap-4 lg:flex-row mb-10">
         <div className="lg:w-1/2">
           <p className="text-sm font-medium md:text-xl">
             He trabajado durante más de 20 años como electricista, 10 de los
