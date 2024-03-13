@@ -16,9 +16,12 @@ export default function SeccionSobreMi() {
           </p>
 
           <p className="text-sm font-medium md:text-xl">
-            En 2020, después de superar un problema de salud, me llevó a
-            replantearme mi trayectoria laboral y decidí estudiar programación,
-            motivado por mi pasión por la{" "}
+            En 2020, decidí darme la oportunidad de hacer lo que realmente me
+            apasiona, y decidí estudiar programación formándome como{" "}
+            <span className="font-bold text-blue-500">
+              técnico superior en Desarrollo de Aplicaciones Web
+            </span>
+            , motivado por mi pasión por la{" "}
             <span className="font-bold text-blue-500">
               resolución de problemas, el aprendizaje continuo y la creatividad
             </span>
