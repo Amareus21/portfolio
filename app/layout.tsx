@@ -28,6 +28,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head >
+        <meta property="og:title" content="Miguel Ortiz" />
+      </head>
       <body className={`${montserrat.className}`}>{children}</body>
     </html>
   );
