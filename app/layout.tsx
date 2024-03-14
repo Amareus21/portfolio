@@ -5,6 +5,20 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "MiguelDev",
   description: "Portfolio de Miguel Àngel Ortiz Mora",
+  twitter : {
+    title:"Miguel Ortiz"
+    
+  },
+  openGraph : {
+    title:"Miguel Ortiz",
+    images : [
+
+    ]
+
+    
+    
+  }
+  
 };
 
 export default function RootLayout({
