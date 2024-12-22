@@ -12,6 +12,8 @@ export default function SeccionInicio(){
       <Image
         alt="flecha"
         src={Arrow}
+        priority
+        sizes="(max-width: 600px) 10px" // Para dispositivos móviles (max-width: 600px), usa 10px
         className="h-10 w-10 md:h-20 md:w-20 animate-fade"
       />
     </div>
