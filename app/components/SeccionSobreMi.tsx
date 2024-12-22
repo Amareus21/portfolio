@@ -1,6 +1,6 @@
 import Image from "next/image";
 import TituloSeccion from "./TituloSeccion";
-import YoMismo from "@/public/yomismo.png";
+import YoMismo from "@/public/yomismo.webp";
 
 export default function SeccionSobreMi() {
   return (
